@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a3d6dd;
+}
+.paciente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #47a7b4;
+    padding: 10px 0;
+}
+.info-paciente {
+    flex: 1;
+}
+.boton {
+    background-color: rgb(81, 171, 187);
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color:rgb(127, 201, 201); 
+}
+.pacientes-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1, h2 {
+    text-align: center;
+}

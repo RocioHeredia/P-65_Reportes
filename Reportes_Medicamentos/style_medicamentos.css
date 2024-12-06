@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#a3d6dd;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #000;
+}
+
+.paciente-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.paciente-info {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.medicamentos-table {
+    width: 80%; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.medicamentos-table th, .medicamentos-table td {
+    padding: 8px 10px; 
+    text-align: left;
+    border: 1px solid #3ca2d1;
+}
+
+.medicamentos-table th {
+    background-color: #9bdbf8;
+    color: #000;
+}
+
+.medicamentos-table td {
+    background-color: #f9f9f9;
+}
+
+.medicamentos-table tr:hover td {
+    background-color: #f1f1f1;
+}
+
+.boton {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #218838;
+}
+
+.linea {
+    margin: 20px 0;
+    border-top: 1px solid #47a7b4;
+}
